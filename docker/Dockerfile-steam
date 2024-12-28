@@ -65,7 +65,6 @@ RUN chmod +x $GAME_PATH/StardewValley && \
     chmod -R 777 $GAME_PATH && \
     chown -R 1000:1000 /data/Stardew && \
     chmod +x /opt/*.sh && \
-    mkdir /etc/services.d/utils && \
     touch /etc/services.d/app/utils.dep && \
     chmod +x /etc/services.d/utils/run && \
     chmod +x $GAME_PATH/start.sh && \
